@@ -1,2 +1,2 @@
-let welcome = 'Welcome to Typescript!';
-console.log(welcome);
+let saludo = 'Welcome to Typescript!';
+console.log(saludo);
