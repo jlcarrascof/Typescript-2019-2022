@@ -1,8 +1,8 @@
-let welcome = 'Welcome to Typescript!';
-console.log(welcome);
+let welcomeLanguage = 'Welcome to Typescript!';
+console.log(welcomeLanguage);
 
-let myDate = '2019-08-27';
-console.log('Date: ', myDate);
+let currentDate = '2019-08-27';
+console.log('Date: ', currentDate);
 
-let age = 30;
-console.log('Age: ', age);
+let actualAge = 30;
+console.log('Age: ', actualAge);
