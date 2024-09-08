@@ -11,5 +11,9 @@
     "javascript"
   ],
   "author": "entrenamientospuntonet@gmail.com",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
 }
