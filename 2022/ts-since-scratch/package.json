@@ -1,0 +1,15 @@
+{
+  "name": "ts-since-scratch",
+  "version": "1.0.0",
+  "description": "This is a folder where we'll learn together TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript",
+    "javascript"
+  ],
+  "author": "entrenamientospuntonet@gmail.com",
+  "license": "ISC"
+}
