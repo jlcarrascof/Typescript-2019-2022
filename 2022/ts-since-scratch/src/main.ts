@@ -1,5 +1,5 @@
-const regards = (string: any) => {
-    console.log(`Hello, ${string}!`);
+const regards = (number: number) => {
+    console.log(`Hi, your add is ${number + 2}!`);
 }
 
-regards('TypeScript Programmer');
+regards(2);
