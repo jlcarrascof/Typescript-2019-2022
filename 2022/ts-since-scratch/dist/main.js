@@ -1,2 +1,4 @@
 "use strict";
-console.log("Hello, TypeScript!!!");
+const regards = (string) => {
+    console.log(`Hello, ${string}!`);
+};

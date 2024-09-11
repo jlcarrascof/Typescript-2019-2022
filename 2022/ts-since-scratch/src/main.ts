@@ -1,1 +1,3 @@
-console.log("Hello, TypeScript!!!");
+const regards = (string: any) => {
+    console.log(`Hello, ${string}!`);
+}
