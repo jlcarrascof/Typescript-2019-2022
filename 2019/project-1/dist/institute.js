@@ -5,3 +5,5 @@ const maxStudents = 20;
 function addNumbers(a, b) {
     return a + b;
 }
+const myResult = addNumbers(2, 3);
+console.log(myResult);

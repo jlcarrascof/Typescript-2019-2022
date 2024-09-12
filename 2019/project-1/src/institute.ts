@@ -3,6 +3,9 @@ console.log('These are our courses: ', ourCourses);
 
 const maxStudents = 20;
 
-function addNumbers(a, b) {
+function addNumbers(a: number, b: number) {
     return a + b;
 }
+
+const myResult = addNumbers(2, 3);
+console.log(myResult);
