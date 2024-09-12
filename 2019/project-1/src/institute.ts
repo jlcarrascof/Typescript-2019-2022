@@ -9,3 +9,12 @@ function addNumbers(a: number, b: number) {
 
 const myResult = addNumbers(2, 3);
 console.log(myResult);
+
+// Literal template strings
+console.log(`The number of students is: ${maxStudents}`);
+let myCode = `
+    <button>Hello</button>
+    <div></div>
+`;
+
+console.log('My Code: ', myCode);
