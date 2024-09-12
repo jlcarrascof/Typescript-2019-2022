@@ -18,3 +18,6 @@ let myCode = `
 `;
 
 console.log('My Code: ', myCode);
+
+let course = 'Typescript';
+let waving = `Welcome to the course of ${course}!`;
