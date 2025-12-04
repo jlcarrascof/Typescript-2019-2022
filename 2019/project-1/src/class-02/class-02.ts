@@ -2,3 +2,11 @@
 let isConnected = true; // boolean
 let isAssigned: boolean = false; // boolean
 
+function itHasDiscount(course) {
+    if (course === 'TypeScript') {
+        return true;
+    }
+    return false;
+}
+
+console.log('It has discount: ', itHasDiscount('Angular')); 
