@@ -10,3 +10,9 @@ function itHasDiscount(course: string): boolean {
 }
 
 console.log('It has discount: ', itHasDiscount('Angular')); 
+
+// Number type
+let students = 100; // number
+// students = '100'; // Error: Type 'string' is not assignable to type 'number'
+let studentsQuantity: number; // number
+studentsQuantity = 120;
