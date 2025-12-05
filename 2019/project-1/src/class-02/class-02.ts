@@ -2,7 +2,7 @@
 let isConnected = true; // boolean
 let isAssigned: boolean = false; // boolean
 
-function itHasDiscount(course) {
+function itHasDiscount(course: string): boolean {
     if (course === 'TypeScript') {
         return true;
     }
