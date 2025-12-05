@@ -21,3 +21,6 @@ function getStudentsQuantity(course) {
 }
 console.log('Students quantity: ', getStudentsQuantity('JavaScript'));
 let inscriptionsTypeScriptCourse = 100; // number
+// Type Number - Hexadecimal, Binary, Octal
+let hexLiteral = 0xf00d; // hexadecimal
+console.log('Hexadecimal literal: ', hexLiteral);
