@@ -24,3 +24,5 @@ function getStudentsQuantity(course: string): number {
 }
 
 console.log('Students quantity: ', getStudentsQuantity('JavaScript'));
+
+let inscriptionsTypeScriptCourse: number = 100; // number
