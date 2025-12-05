@@ -27,7 +27,9 @@ console.log('Students quantity: ', getStudentsQuantity('JavaScript'));
 
 let inscriptionsTypeScriptCourse: number = 100; // number
 
-// Type Number - Hexadecimal, Binary, Octal
+// Type Number - Decimal, Hexadecimal, Binary, Octal
+let decimalLiteral: number = 10; // decimal
 let hexLiteral: number = 0xf00d; // hexadecimal
+console.log('Decimal literal: ', decimalLiteral);
 console.log('Hexadecimal literal: ', hexLiteral);
 
