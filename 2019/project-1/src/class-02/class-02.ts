@@ -30,6 +30,8 @@ let inscriptionsTypeScriptCourse: number = 100; // number
 // Type Number - Decimal, Hexadecimal, Binary, Octal
 let decimalLiteral: number = 10; // decimal
 let hexLiteral: number = 0xf00d; // hexadecimal
+let binaryLiteral: number = 0b1001; // binary
 console.log('Decimal literal: ', decimalLiteral);
 console.log('Hexadecimal literal: ', hexLiteral);
+console.log('Binary literal: ', binaryLiteral);
 
