@@ -25,6 +25,8 @@ let inscriptionsTypeScriptCourse = 100; // number
 let decimalLiteral = 10; // decimal
 let hexLiteral = 0xf00d; // hexadecimal
 let binaryLiteral = 0b1001; // binary
+let octalLiteral = 0o755; // octal
 console.log('Decimal literal: ', decimalLiteral);
 console.log('Hexadecimal literal: ', hexLiteral);
 console.log('Binary literal: ', binaryLiteral);
+console.log('Octal literal: ', octalLiteral);

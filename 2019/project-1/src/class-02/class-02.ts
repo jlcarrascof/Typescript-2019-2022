@@ -31,7 +31,10 @@ let inscriptionsTypeScriptCourse: number = 100; // number
 let decimalLiteral: number = 10; // decimal
 let hexLiteral: number = 0xf00d; // hexadecimal
 let binaryLiteral: number = 0b1001; // binary
+let octalLiteral: number = 0o755; // octal
 console.log('Decimal literal: ', decimalLiteral);
 console.log('Hexadecimal literal: ', hexLiteral);
 console.log('Binary literal: ', binaryLiteral);
+console.log('Octal literal: ', octalLiteral);
+
 
