@@ -5,8 +5,13 @@
 regards(2);
  */
 
-const evenNumbers = (n: number) => {
-    console.log(`The even number is: ${n}`);
+const evenNumbers = [2, 4, 6, 8, 10];
+const acceptEvenNumbers = (n: number) => {
+    if (evenNumbers.includes(n)) {
+        console.log("Accepted");
+    } else {
+        console.log("Rejected");
+    }
 }
 
-evenNumbers(5);
+acceptEvenNumbers(2);
