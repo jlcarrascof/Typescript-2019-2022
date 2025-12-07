@@ -4,3 +4,9 @@
 
 regards(2);
  */
+
+const evenNumbers = (n: number) => {
+    console.log(`The even number is: ${n}`);
+}
+
+evenNumbers(5);
