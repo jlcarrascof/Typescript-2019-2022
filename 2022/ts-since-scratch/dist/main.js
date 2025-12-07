@@ -5,6 +5,7 @@
 
 regards(2);
  */
+/* TypeScript without optimization */
 const evenNumbers = [2, 4, 6, 8, 10];
 const acceptEvenNumbers = (n) => {
     if (evenNumbers.includes(n)) {
@@ -15,3 +16,8 @@ const acceptEvenNumbers = (n) => {
     }
 };
 acceptEvenNumbers(2);
+const acceptOnlyEvenNumbers = (n) => {
+    console.log("Accepted");
+};
+acceptOnlyEvenNumbers(2);
+// acceptOnlyEvenNumbers(3); // This will cause a compile-time error
