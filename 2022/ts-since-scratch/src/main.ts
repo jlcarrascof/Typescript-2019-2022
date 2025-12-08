@@ -34,7 +34,9 @@ enum COUNTRY {
     CHI = "CHI"
 }
 
-const checkNationality = (country: string) => {
+type TCountry = COUNTRY;
+
+const checkNationality = (country: TCountry) => {
     if (country === COUNTRY.BOL) {
         console.log("Bolivian");
     } else if (country === COUNTRY.ARG) {
