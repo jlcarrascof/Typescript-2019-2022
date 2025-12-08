@@ -28,10 +28,6 @@ acceptOnlyEvenNumbers(2);
 
 /* Preparing to use Enum for better readability */
 
-const BOL = "BOL";
-const ARG = "ARG";
-const CHI = "CHI";
-
 enum COUNTRY {
     BOL = "BOL",
     ARG = "ARG",
@@ -48,4 +44,4 @@ const checkNationality = (country: string) => {
     }
 };    
 
-checkNationality(ARG);
+checkNationality(COUNTRY.ARG);
