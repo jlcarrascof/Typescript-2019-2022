@@ -22,15 +22,18 @@ const acceptOnlyEvenNumbers = (n) => {
 acceptOnlyEvenNumbers(2);
 // acceptOnlyEvenNumbers(3); // This will cause a compile-time error
 /* Preparing to use Enum for better readability */
+const BOL = "BOL";
+const ARG = "ARG";
+const CHI = "CHI";
 const checkNationality = (country) => {
-    if (country === "BOL") {
+    if (country === BOL) {
         console.log("Bolivian");
     }
-    else if (country === "ARG") {
+    else if (country === ARG) {
         console.log("Argentinian");
     }
-    else if (country === "CHI") {
+    else if (country === CHI) {
         console.log("Chilean");
     }
 };
-checkNationality("CHI");
+checkNationality(CHI);

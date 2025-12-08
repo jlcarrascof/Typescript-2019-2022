@@ -28,15 +28,18 @@ acceptOnlyEvenNumbers(2);
 
 /* Preparing to use Enum for better readability */
 
+const BOL = "BOL";
+const ARG = "ARG";
+const CHI = "CHI";
+
 const checkNationality = (country: string) => {
-    if (country === "BOL") {
+    if (country === BOL) {
         console.log("Bolivian");
-    } else if (country === "ARG") {
+    } else if (country === ARG) {
         console.log("Argentinian");
-    } else if (country === "CHI") {
+    } else if (country === CHI) {
         console.log("Chilean");        
     }
 };    
 
-checkNationality("CHI");
-
+checkNationality(CHI);
