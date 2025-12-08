@@ -25,15 +25,21 @@ acceptOnlyEvenNumbers(2);
 const BOL = "BOL";
 const ARG = "ARG";
 const CHI = "CHI";
+var COUNTRY;
+(function (COUNTRY) {
+    COUNTRY["BOL"] = "BOL";
+    COUNTRY["ARG"] = "ARG";
+    COUNTRY["CHI"] = "CHI";
+})(COUNTRY || (COUNTRY = {}));
 const checkNationality = (country) => {
-    if (country === BOL) {
+    if (country === COUNTRY.BOL) {
         console.log("Bolivian");
     }
-    else if (country === ARG) {
+    else if (country === COUNTRY.ARG) {
         console.log("Argentinian");
     }
-    else if (country === CHI) {
+    else if (country === COUNTRY.CHI) {
         console.log("Chilean");
     }
 };
-checkNationality(CHI);
+checkNationality(ARG);

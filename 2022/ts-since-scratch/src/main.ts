@@ -32,14 +32,20 @@ const BOL = "BOL";
 const ARG = "ARG";
 const CHI = "CHI";
 
+enum COUNTRY {
+    BOL = "BOL",
+    ARG = "ARG",
+    CHI = "CHI"
+}
+
 const checkNationality = (country: string) => {
-    if (country === BOL) {
+    if (country === COUNTRY.BOL) {
         console.log("Bolivian");
-    } else if (country === ARG) {
+    } else if (country === COUNTRY.ARG) {
         console.log("Argentinian");
-    } else if (country === CHI) {
+    } else if (country === COUNTRY.CHI) {
         console.log("Chilean");        
     }
 };    
 
-checkNationality(CHI);
+checkNationality(ARG);
