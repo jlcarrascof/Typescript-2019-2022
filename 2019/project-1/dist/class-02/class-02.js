@@ -35,3 +35,6 @@ let myName = 'Javier'; // string
 let myLastName = 'Martinez'; // string
 let completeName = myName + ' ' + myLastName;
 console.log('Complete name: ', completeName);
+// String + ES6 Templates ....
+let completeName2 = `${myName} ${myLastName}`;
+console.log('Full Name using literal templates: ', completeName2);
