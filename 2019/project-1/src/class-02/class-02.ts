@@ -37,4 +37,8 @@ console.log('Hexadecimal literal: ', hexLiteral);
 console.log('Binary literal: ', binaryLiteral);
 console.log('Octal literal: ', octalLiteral);
 
-
+// String type
+let myName = 'Javier'; // string
+let myLastName: string = 'Martinez'; // string
+let completeName = myName + ' ' + myLastName;
+console.log('Complete name: ', completeName);
