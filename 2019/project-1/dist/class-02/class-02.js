@@ -44,3 +44,8 @@ My name is ${completeName} and I have ${arrayCourses.length} courses.
 Thanks for attending!!
 `;
 console.log('Message with literal templates:', message);
+// Special Types in TypeScript.
+// Any.
+let unknownValueFromApp; // var unknownValueFromApp
+unknownValueFromApp = 'hello';
+unknownValueFromApp = 2;
