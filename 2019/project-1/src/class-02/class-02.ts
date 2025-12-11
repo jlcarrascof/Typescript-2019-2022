@@ -55,10 +55,20 @@ Thanks for attending!!
 console.log('Message with literal templates:', message);
 
 // Special Types in TypeScript.
-// Any.
+// Type: any.
 
 let unknownValueFromApp; // var unknownValueFromApp
 unknownValueFromApp = 'hello';
 unknownValueFromApp = 2;
 
 let unknownValueFromApp2: any = 2;
+
+// Type: void
+let empty: void;
+
+function showContent(course: string): void {
+    const message = course ? `Welcome to the course ${course}` : 'Subscribe to the course';
+    console.log('message:', message);
+}
+
+console.log('TypeScript', showContent('TypeScript'));
