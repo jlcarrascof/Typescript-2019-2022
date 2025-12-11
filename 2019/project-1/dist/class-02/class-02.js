@@ -49,3 +49,4 @@ console.log('Message with literal templates:', message);
 let unknownValueFromApp; // var unknownValueFromApp
 unknownValueFromApp = 'hello';
 unknownValueFromApp = 2;
+let unknownValueFromApp2 = 2;
