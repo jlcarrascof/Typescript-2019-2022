@@ -56,4 +56,6 @@ function showContent(course) {
     const message = course ? `Welcome to the course ${course}` : 'Subscribe to the course';
     console.log('message:', message);
 }
-console.log('TypeScript', showContent('TypeScript'));
+console.log('TypeScript', showContent('TypeScript')); // undefined
+console.log('No course', showContent('')); // undefined
+showContent('TypeScript'); // message: Welcome to the course TypeScript
