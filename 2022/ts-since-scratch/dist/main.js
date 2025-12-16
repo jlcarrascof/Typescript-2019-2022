@@ -40,3 +40,7 @@ const checkNationality = (country) => {
     }
 };
 checkNationality(COUNTRY.ARG);
+const numberOne = [1, "One"];
+const numberTwo = [2, "Two"];
+const numberThree = [3, "Three"];
+const numberFour = [4, "Four"];

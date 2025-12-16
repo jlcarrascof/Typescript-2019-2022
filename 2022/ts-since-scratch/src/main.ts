@@ -47,3 +47,14 @@ const checkNationality = (country: TCountry) => {
 };    
 
 checkNationality(COUNTRY.ARG);
+
+// Tuples in TypeScript
+
+type numberIndex = number;
+type stringNumber = string;
+
+const numberOne: [numberIndex, stringNumber] = [1, "One"];
+const numberTwo: [numberIndex, stringNumber] = [2, "Two"];
+const numberThree: [numberIndex, stringNumber] = [3, "Three"];
+const numberFour: [numberIndex, stringNumber] = [4, "Four"];
+
