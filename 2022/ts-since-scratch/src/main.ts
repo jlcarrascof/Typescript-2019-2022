@@ -78,12 +78,15 @@ if (typeof PING === 'number') {
 
 // Never type in TypeScript
 
-function validatePing() {
+function validatePing(): never {
+    /*
     if (typeof PING === 'number') {
         console.log('OK');
     } else {
         throw new Error(`There isn't any connection`);
-    }    
+    } 
+    */
+    throw new Error(`There isn't any connection`);       
 }
 
 validatePing();
