@@ -73,3 +73,15 @@ if (typeof PING === 'number') {
 } else {
     throw new Error(`There isn't any connection`);
 }
+
+// Never type in TypeScript
+
+function validatePing() {
+    if (typeof PING === 'number') {
+        console.log('OK');
+    } else {
+        throw new Error(`There isn't any connection`);
+    }    
+}
+
+validatePing();
