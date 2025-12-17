@@ -68,11 +68,13 @@ PING = null;
 
 // 1000 Code lines ....
 
+/*
 if (typeof PING === 'number') {
     console.log('OK');
 } else {
     throw new Error(`There isn't any connection`);
 }
+*/
 
 // Never type in TypeScript
 

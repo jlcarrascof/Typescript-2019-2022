@@ -49,12 +49,13 @@ const BACKEND_API = 'http://www.midominio.com/api';
 let PING = 80;
 PING = null;
 // 1000 Code lines ....
+/*
 if (typeof PING === 'number') {
     console.log('OK');
-}
-else {
+} else {
     throw new Error(`There isn't any connection`);
 }
+*/
 // Never type in TypeScript
 function validatePing() {
     if (typeof PING === 'number') {
