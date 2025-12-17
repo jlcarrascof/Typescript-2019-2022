@@ -58,13 +58,11 @@ if (typeof PING === 'number') {
 */
 // Never type in TypeScript
 function validatePing() {
-    /*
-    if (typeof PING === 'number') {
+    if (typeof PING !== 'undefined') {
         console.log('OK');
-    } else {
+    }
+    else {
         throw new Error(`There isn't any connection`);
     }
-    */
-    throw new Error(`There isn't any connection`);
 }
 validatePing();
