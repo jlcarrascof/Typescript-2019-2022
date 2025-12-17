@@ -30,3 +30,32 @@ console.log('Decimal literal: ', decimalLiteral);
 console.log('Hexadecimal literal: ', hexLiteral);
 console.log('Binary literal: ', binaryLiteral);
 console.log('Octal literal: ', octalLiteral);
+// String type
+let myName = 'Javier'; // string
+let myLastName = 'Martinez'; // string
+let completeName = myName + ' ' + myLastName;
+console.log('Complete name: ', completeName);
+// String + ES6 Templates ....
+let completeName2 = `${myName} ${myLastName}`;
+console.log('Full Name using literal templates: ', completeName2);
+let arrayCourses = ['TypeScript', 'Angular'];
+let message = `
+My name is ${completeName} and I have ${arrayCourses.length} courses.
+Thanks for attending!!
+`;
+console.log('Message with literal templates:', message);
+// Special Types in TypeScript.
+// Type: any.
+let unknownValueFromApp; // var unknownValueFromApp
+unknownValueFromApp = 'hello';
+unknownValueFromApp = 2;
+let unknownValueFromApp2 = 2;
+// Type: void
+let empty;
+function showContent(course) {
+    const message = course ? `Welcome to the course ${course}` : 'Subscribe to the course';
+    console.log('message:', message);
+}
+console.log('TypeScript', showContent('TypeScript')); // undefined
+console.log('No course', showContent('')); // undefined
+showContent('TypeScript'); // message: Welcome to the course TypeScript
