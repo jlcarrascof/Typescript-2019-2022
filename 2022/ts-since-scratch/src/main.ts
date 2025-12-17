@@ -58,3 +58,18 @@ const numberTwo: [numberIndex, stringNumber] = [2, "Two"];
 const numberThree: [numberIndex, stringNumber] = [3, "Three"];
 const numberFour: [numberIndex, stringNumber] = [4, "Four"];
 
+// Data type unknown.
+
+const BACKEND_API = 'http://www.midominio.com/api';
+
+let PING: unknown = 80;
+
+PING = null;
+
+// 1000 Code lines ....
+
+if (typeof PING === 'number') {
+    console.log('OK');
+} else {
+    throw new Error(`There isn't any connection`);
+}

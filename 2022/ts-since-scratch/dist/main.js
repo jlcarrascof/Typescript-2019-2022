@@ -44,3 +44,14 @@ const numberOne = [1, "One"];
 const numberTwo = [2, "Two"];
 const numberThree = [3, "Three"];
 const numberFour = [4, "Four"];
+// Data type unknown.
+const BACKEND_API = 'http://www.midominio.com/api';
+let PING = 80;
+PING = null;
+// 1000 Code lines ....
+if (typeof PING === 'number') {
+    console.log('OK');
+}
+else {
+    throw new Error(`There isn't any connection`);
+}
