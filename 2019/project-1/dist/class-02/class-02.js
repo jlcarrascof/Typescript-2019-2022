@@ -70,3 +70,6 @@ function infiniteCycle() {
     while (true) {
     }
 }
+// Types: null and undefined....
+let undefinedVariable = undefined;
+let nullVariable = null;

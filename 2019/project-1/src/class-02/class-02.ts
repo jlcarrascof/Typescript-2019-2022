@@ -91,3 +91,7 @@ function infiniteCycle(): never {
     }
 }
 
+// Types: null and undefined....
+let undefinedVariable: undefined = undefined;
+let nullVariable: null = null;
+
