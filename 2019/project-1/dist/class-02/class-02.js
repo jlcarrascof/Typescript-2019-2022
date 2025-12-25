@@ -81,3 +81,8 @@ function undefinedReturn() {
 }
 let withoutValue;
 console.log(withoutValue); // undefined
+// Functions in TypeScript
+function greeting(name) {
+    return 'Hello, ' + name;
+}
+console.log(greeting(completeName));

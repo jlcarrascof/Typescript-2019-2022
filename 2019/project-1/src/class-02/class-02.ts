@@ -105,3 +105,10 @@ function undefinedReturn(): undefined {
 
 let withoutValue;
 console.log(withoutValue); // undefined
+
+// Functions in TypeScript
+function greeting(name: string): string {
+    return 'Hello, ' + name;
+}
+
+console.log(greeting(completeName));
