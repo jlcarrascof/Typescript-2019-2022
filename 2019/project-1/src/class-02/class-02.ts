@@ -82,4 +82,4 @@ function returnError(error: string): never {
     throw new Error('TypeScript Error. ' + error);
 }
 
-
+returnError('Unexpected error!!');

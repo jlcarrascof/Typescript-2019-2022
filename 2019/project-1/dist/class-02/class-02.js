@@ -64,3 +64,4 @@ let nunca;
 function returnError(error) {
     throw new Error('TypeScript Error. ' + error);
 }
+returnError('Unexpected error!!');
