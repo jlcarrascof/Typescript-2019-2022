@@ -91,3 +91,6 @@ console.log(greeting(completeName));
 console.log(greeting());
 // Arrays in TypeScript ....
 let courses = ['TypeScript', 'Angular'];
+// Arrays with generics ...
+let names;
+names = ['Luis Aviles', 'Alvaro Felipe'];
