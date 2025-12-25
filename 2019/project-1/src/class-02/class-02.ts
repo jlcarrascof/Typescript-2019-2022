@@ -80,6 +80,7 @@ let nunca: never;
 
 function returnError(error: string): never {
     throw new Error('TypeScript Error. ' + error);
+    // Never returns a value!! ....
 }
 
-returnError('Unexpected error!!');
+// returnError('Unexpected error!!');

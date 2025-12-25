@@ -63,5 +63,6 @@ showContent('TypeScript'); // message: Welcome to the course TypeScript
 let nunca;
 function returnError(error) {
     throw new Error('TypeScript Error. ' + error);
+    // Never returns a value!! ....
 }
-returnError('Unexpected error!!');
+// returnError('Unexpected error!!');
