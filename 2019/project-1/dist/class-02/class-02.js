@@ -66,3 +66,7 @@ function returnError(error) {
     // Never returns a value!! ....
 }
 // returnError('Unexpected error!!');
+function infiniteCycle() {
+    while (true) {
+    }
+}

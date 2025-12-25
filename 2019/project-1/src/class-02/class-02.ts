@@ -84,3 +84,10 @@ function returnError(error: string): never {
 }
 
 // returnError('Unexpected error!!');
+
+function infiniteCycle(): never {
+    while(true) {
+
+    }
+}
+
