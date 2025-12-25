@@ -59,3 +59,8 @@ function showContent(course) {
 console.log('TypeScript', showContent('TypeScript')); // undefined
 console.log('No course', showContent('')); // undefined
 showContent('TypeScript'); // message: Welcome to the course TypeScript
+// Type: Never ....
+let nunca;
+function returnError(error) {
+    throw new Error('TypeScript Error. ' + error);
+}
