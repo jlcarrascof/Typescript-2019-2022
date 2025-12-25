@@ -102,3 +102,6 @@ function nullReturn(): null {
 function undefinedReturn(): undefined {
     return undefined;
 }
+
+let withoutValue;
+console.log(withoutValue); // undefined

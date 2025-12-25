@@ -79,3 +79,5 @@ function nullReturn() {
 function undefinedReturn() {
     return undefined;
 }
+let withoutValue;
+console.log(withoutValue); // undefined
