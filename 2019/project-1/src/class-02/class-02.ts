@@ -107,8 +107,11 @@ let withoutValue;
 console.log(withoutValue); // undefined
 
 // Functions in TypeScript
-function greeting(name: string): string {
-    return 'Hello, ' + name;
+function greeting(name?: string): string {
+    if (name) 
+        return 'Hello, ' + name;
+    return 'Hello';
 }
 
 console.log(greeting(completeName));
+console.log(greeting());
