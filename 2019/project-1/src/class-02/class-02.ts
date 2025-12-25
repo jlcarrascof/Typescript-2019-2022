@@ -123,3 +123,4 @@ let courses: string[] = ['TypeScript', 'Angular'];
 let names: Array<string>;
 names = ['Luis Aviles', 'Alvaro Felipe'];
 
+let myArray: any[] = [2, 'string', true];

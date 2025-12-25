@@ -94,3 +94,4 @@ let courses = ['TypeScript', 'Angular'];
 // Arrays with generics ...
 let names;
 names = ['Luis Aviles', 'Alvaro Felipe'];
+let myArray = [2, 'string', true];
