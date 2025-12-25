@@ -73,3 +73,9 @@ function infiniteCycle() {
 // Types: null and undefined....
 let undefinedVariable = undefined;
 let nullVariable = null;
+function nullReturn() {
+    return null;
+}
+function undefinedReturn() {
+    return undefined;
+}

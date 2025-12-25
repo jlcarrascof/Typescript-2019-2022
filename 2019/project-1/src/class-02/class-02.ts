@@ -95,3 +95,10 @@ function infiniteCycle(): never {
 let undefinedVariable: undefined = undefined;
 let nullVariable: null = null;
 
+function nullReturn(): null {
+    return null;
+}
+
+function undefinedReturn(): undefined {
+    return undefined;
+}
