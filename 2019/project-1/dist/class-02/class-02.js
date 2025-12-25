@@ -89,3 +89,5 @@ function greeting(name) {
 }
 console.log(greeting(completeName));
 console.log(greeting());
+// Arrays in TypeScript ....
+let courses = ['TypeScript', 'Angular'];

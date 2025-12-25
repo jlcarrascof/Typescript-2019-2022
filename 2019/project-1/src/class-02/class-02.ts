@@ -115,3 +115,7 @@ function greeting(name?: string): string {
 
 console.log(greeting(completeName));
 console.log(greeting());
+
+// Arrays in TypeScript ....
+
+let courses: string[] = ['TypeScript', 'Angular'];
