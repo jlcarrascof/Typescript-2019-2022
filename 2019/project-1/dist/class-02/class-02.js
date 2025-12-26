@@ -106,3 +106,7 @@ console.log('Total Students: ', myCourses[1] + newStudents);
 console.log('My Courses after new students: ', myCourses);
 myCourses[1] += newStudents;
 console.log('My Courses updated: ', myCourses);
+let testTuple = ['a', 'b'];
+let tempTuple = ['c', 'd'];
+tempTuple = testTuple;
+console.log('tempTuple: ', tempTuple);
