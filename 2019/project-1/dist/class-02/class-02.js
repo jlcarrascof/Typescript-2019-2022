@@ -95,3 +95,6 @@ let courses = ['TypeScript', 'Angular'];
 let names;
 names = ['Luis Aviles', 'Alvaro Felipe'];
 let myArray = [2, 'string', true];
+// Tuples in TypeScript ....
+let infoCourses = ['TypeScript', 100];
+infoCourses = ['Angular', 200];

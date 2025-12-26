@@ -124,3 +124,9 @@ let names: Array<string>;
 names = ['Luis Aviles', 'Alvaro Felipe'];
 
 let myArray: any[] = [2, 'string', true];
+
+// Tuples in TypeScript ....
+let infoCourses: [string, number] = ['TypeScript', 100];
+infoCourses = ['Angular', 200];
+
+
