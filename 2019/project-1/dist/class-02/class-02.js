@@ -59,3 +59,54 @@ function showContent(course) {
 console.log('TypeScript', showContent('TypeScript')); // undefined
 console.log('No course', showContent('')); // undefined
 showContent('TypeScript'); // message: Welcome to the course TypeScript
+// Type: Never ....
+let nunca;
+function returnError(error) {
+    throw new Error('TypeScript Error. ' + error);
+    // Never returns a value!! ....
+}
+// returnError('Unexpected error!!');
+function infiniteCycle() {
+    while (true) {
+    }
+}
+// Types: null and undefined....
+let undefinedVariable = undefined;
+let nullVariable = null;
+function nullReturn() {
+    return null;
+}
+function undefinedReturn() {
+    return undefined;
+}
+let withoutValue;
+console.log(withoutValue); // undefined
+// Functions in TypeScript
+function greeting(name) {
+    if (name)
+        return 'Hello, ' + name;
+    return 'Hello';
+}
+console.log(greeting(completeName));
+console.log(greeting());
+// Arrays in TypeScript ....
+let courses = ['TypeScript', 'Angular'];
+// Arrays with generics ...
+let names;
+names = ['Luis Aviles', 'Alvaro Felipe'];
+let myArray = [2, 'string', true];
+// Tuples in TypeScript ....
+let infoCourses = ['TypeScript', 100];
+infoCourses = ['Angular', 200];
+let myCourses = ['TypeScript', 150, '08/2019'];
+console.log('My Courses: ', myCourses);
+let newStudents = 10;
+console.log('Start date: ', myCourses[2]);
+console.log('Total Students: ', myCourses[1] + newStudents);
+console.log('My Courses after new students: ', myCourses);
+myCourses[1] += newStudents;
+console.log('My Courses updated: ', myCourses);
+let testTuple = ['a', 'b'];
+let tempTuple = ['c', 'd'];
+tempTuple = testTuple;
+console.log('tempTuple: ', tempTuple);
