@@ -131,3 +131,5 @@ infoCourses = ['Angular', 200];
 
 let myCourses: [string, number, string] = ['TypeScript', 150, '08/2019'];
 console.log('My Courses: ', myCourses);
+
+console.log('Start date: ', myCourses[2]);
