@@ -103,3 +103,4 @@ console.log('My Courses: ', myCourses);
 let newStudents = 10;
 console.log('Start date: ', myCourses[2]);
 console.log('Total Students: ', myCourses[1] + newStudents);
+console.log('My Courses updated: ', myCourses);
