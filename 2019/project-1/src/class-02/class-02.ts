@@ -129,4 +129,5 @@ let myArray: any[] = [2, 'string', true];
 let infoCourses: [string, number] = ['TypeScript', 100];
 infoCourses = ['Angular', 200];
 
-
+let myCourses: [string, number, string] = ['TypeScript', 150, '08/2019'];
+console.log('My Courses: ', myCourses);
